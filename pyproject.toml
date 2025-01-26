@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "phototracks"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+exifread = "^3.0.0"
+click = "^8.1.8"
+gpx = "^0.2.1"
+
+[tool.poetry.scripts]
+phototracks = "phototracks:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
