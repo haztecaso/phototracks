@@ -1,6 +1,6 @@
 [project]
 name = "phototracks"
-version = "0.0.1"
+version = "0.1.0"
 description = "phototracks matches your photos with GPS locations based on timestamps from GPX track files"
 readme = "README.md"
 requires-python = ">=3.10"

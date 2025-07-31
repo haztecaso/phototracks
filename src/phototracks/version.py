@@ -1,7 +1,7 @@
 """Utilities to retrieve the information of the program version."""
 
 # Do not edit the version manually, let `cz bump` do it.
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 
 
 def version_info() -> str:
