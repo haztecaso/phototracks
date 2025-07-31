@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/haztecaso/python-template",
+  "commit": "addea2480def7e2fa85ac31b489f1d03350cb37d",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "phototracks",
+      "project_slug": "phototracks",
+      "project_short_description": "phototracks matches your photos with GPS locations based on timestamps from GPX track files",
+      "author": "Adrián Lattes",
+      "author_email": "adrianlattes@disroot.org",
+      "github_username": "haztecaso",
+      "use_asyncio": "y",
+      "command_line_interface": "click",
+      "use_mkdocs": "y",
+      "open_source_license": "GNU General Public License v3 (GPLv3)",
+      "security_advisories_email": "adrianlattes@disroot.org",
+      "__gh_slug": "haztecaso/phototracks",
+      "_template": "https://github.com/haztecaso/python-template",
+      "_commit": "addea2480def7e2fa85ac31b489f1d03350cb37d"
+    }
+  },
+  "directory": null
+}
