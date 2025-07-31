@@ -10,6 +10,11 @@ authors = [
 dependencies = [
     "click",
     "asyncio",
+    "exifread>=3.3.2",
+    "gpx>=0.2.1",
+    "pillow>=11.3.0",
+    "fastapi>=0.116.1",
+    "pydantic>=2.11.7",
 ]
 classifiers=[
     "Development Status :: 2 - Pre-Alpha",
