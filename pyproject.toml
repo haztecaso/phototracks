@@ -8,12 +8,13 @@ authors = [
     {name="Adrián Lattes", email="adrianlattes@disroot.org"},
 ]
 dependencies = [
-    "click",
-    "asyncio",
+    "asyncio>=3.4.3",
+    "click>=8.2.1",
     "exifread>=3.3.2",
+    "fastapi>=0.116.1",
+    "geopandas>=1.1.1",
     "gpx>=0.2.1",
     "pillow>=11.3.0",
-    "fastapi>=0.116.1",
     "pydantic>=2.11.7",
 ]
 classifiers=[
@@ -40,6 +41,7 @@ dev = [
     "black",
     "commitizen",
     "flake8",
+    "ipython>=8.37.0",
     "isort",
     "pre-commit",
     "pyright",
